@@ -17,6 +17,12 @@ sudo sh ~/Downloads/crouton -t lxde,xiwi
 sudo startxiwi -n xenial -T xterm
 ```
 
+### Start desktop environment
+
+```
+sudo startlxde
+```
+
 ### More info
 
 https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet
