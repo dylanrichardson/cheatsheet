@@ -108,10 +108,18 @@ ln -s /usr/bin/nodejs /usr/bin/node
 sudo apt-get install git
 ```
 
-### Install Commitizen CLI
+## Commitizen
+
+### Install Commitizen CLI (Globally) 
 
 ```
 yarn global add commitizen
+```
+
+### Install (in project root)
+
+```
+commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
 
 
