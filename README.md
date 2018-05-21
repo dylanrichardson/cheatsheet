@@ -21,18 +21,21 @@ sudo startxiwi -n xenial -T xterm
 https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet
 
 
-### zsh
+## zsh
 
-## Install zsh
+### Install zsh
 
 ```
 sudo apt-get zsh
 
 ```
 
-## Install oh-my-zsh
+### Install oh-my-zsh
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+### Copy .zshrc
+
+[.zshrc](.zshrc)
