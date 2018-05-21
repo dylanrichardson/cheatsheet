@@ -2,6 +2,7 @@
 
 > Useful things I don't want to remember.
 
+
 ## Crouton
 
 ### Install Xenial with LXDE and Xiwi
@@ -39,3 +40,47 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ### Copy .zshrc
 
 [.zshrc](.zshrc)
+
+
+## Git
+
+### Install
+
+```
+sudo apt-get install git
+```
+
+
+## GPG Auto Git Signing
+
+### Generate a new pgp key
+
+```
+gpg --gen-key
+```
+
+### Check current keys
+
+```
+gpg --list-secret-keys --keyid-format LONG
+```
+
+### Export private key in gpg
+
+```
+gpg --export-secret-key -a "your_username"
+```
+
+### Export public key in gpg
+your_key_id is the HASH id in front of `sec` in previous command.
+
+```
+gpg --armor --export your_key_id
+```
+
+### Set a pgp key for git
+
+```
+git config --global user.signingkey your_key_id
+```
+
