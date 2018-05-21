@@ -50,6 +50,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 sudo apt-get install git
 ```
 
+### Install Commitizen CLI
+
+```
+yarn global add commitizen
+```
+
 
 ## GPG Auto Git Signing
 
