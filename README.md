@@ -94,6 +94,11 @@ nvm install <version>
 nvm use <version>
 ```
 
+### Fix Ubuntu bug
+```
+ln -s /usr/bin/nodejs /usr/bin/node
+```
+
 
 ## Git
 
