@@ -84,3 +84,11 @@ gpg --armor --export your_key_id
 git config --global user.signingkey your_key_id
 ```
 
+## SSH
+
+### Generate key
+
+```
+ssh-keygen -t rsa -b 4096 -C "dylanrichardson1996@gmail.com"
+```
+
