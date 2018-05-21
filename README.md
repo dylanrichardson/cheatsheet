@@ -42,6 +42,59 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 [.zshrc](.zshrc)
 
 
+## Curl
+
+### Install
+
+```
+sudo apt-get install curl
+```
+
+## Yarn
+
+### Install
+
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
+```
+
+## Node Platform
+
+### Install Node
+
+```
+sudo apt-get install nodejs
+```
+
+### Install NPM
+
+```
+sudo apt-get install npm
+```
+
+### Update NPM
+
+```
+npm install -g npm
+```
+
+### Install NVM
+
+```
+curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh -o install_nvm.sh
+bash install_nvm.sh
+```
+
+### Update Node
+
+```
+nvm install <version>
+nvm use <version>
+```
+
+
 ## Git
 
 ### Install
@@ -62,26 +115,26 @@ yarn global add commitizen
 ### Generate a new pgp key
 
 ```
-gpg --gen-key
+gpg2 --gen-key
 ```
 
 ### Check current keys
 
 ```
-gpg --list-secret-keys --keyid-format LONG
+gpg2 --list-secret-keys --keyid-format LONG
 ```
 
 ### Export private key in gpg
 
 ```
-gpg --export-secret-key -a "your_username"
+gpg2 --export-secret-key -a "your_username"
 ```
 
 ### Export public key in gpg
 your_key_id is the HASH id in front of `sec` in previous command.
 
 ```
-gpg --armor --export your_key_id
+gpg2 --armor --export your_key_id
 ```
 
 ### Set a pgp key for git
