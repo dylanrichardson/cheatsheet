@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/dylan/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -79,7 +79,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # added by travis gem
-[ -f /Users/dylan/.travis/travis.sh ] && source /Users/dylan/.travis/travis.sh
+[ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -105,6 +105,9 @@ else
     eval $(gpg-agent --daemon ~/.gnupg/.gpg-agent-info)
 fi
 
+# PyEnv
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -129,6 +132,3 @@ alias zshrc="subl ~/.zshrc"
 if [[ ~ == $(pwd) ]]; then
 	cd dev
 fi
-
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
