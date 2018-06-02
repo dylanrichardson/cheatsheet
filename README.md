@@ -249,6 +249,6 @@ brew install pyenv
 ## Applications (macOS)
 
 ```
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip webpquicklook suspicious-package google-chrome alfred android-file-transfer appcleaner caffeine cheatsheet bettertouchtool docker doubletwist dropbox google-drive-file-stream flux latexit 1password spectacle sublime-text superduper discord spotify transmission gitkraken vlc hyper java mactex
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip webpquicklook suspicious-package google-chrome alfred android-file-transfer appcleaner caffeine cheatsheet bettertouchtool docker doubletwist dropbox google-backup-and-sync flux latexit 1password spectacle sublime-text superduper discord spotify transmission gitkraken vlc hyper java mactex
 ```
 
