@@ -106,7 +106,8 @@ else
 fi
 
 # PyEnv
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
