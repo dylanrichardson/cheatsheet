@@ -3,6 +3,23 @@
 > Useful things I don't want to remember.
 
 
+## Homebrew
+
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## Cask
+
+```
+brew tap homebrew/cask
+```
+
+## Xcode Command Line Tools
+xcode-select --install
+
+
+
 ## Crouton
 
 ### Install Xenial with LXDE and Xiwi
@@ -163,7 +180,7 @@ gpg --list-secret-keys --keyid-format LONG
 your_key_id is the HASH id in front of `sec` in previous command.
 
 ```
-gpg2 --armor --export your_key_id | pbcopy
+gpg --armor --export your_key_id | pbcopy
 ```
 
 Paste on GitHub (https://github.com/settings/gpg/new)
@@ -186,3 +203,27 @@ pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 Paste on GitHub (https://github.com/settings/ssh/new)
+
+
+## Heroku
+
+```
+brew install heroku-toolbelt
+```
+
+
+## Python
+
+```
+brew install python
+pip3 install --upgrade pip setuptools wheel
+brew install pyenv
+```
+
+
+## Applications (macOS)
+
+```
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip webpquicklook suspicious-package google-chrome alfred android-file-transfer appcleaner caffeine cheatsheet bettertouchtool docker doubletwist dropbox google-drive-file-stream flux latexit 1password spectacle sublime-text superduper discord spotify transmission gitkraken vlc hyper java mactex
+```
+
