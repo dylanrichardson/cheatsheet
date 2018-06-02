@@ -192,6 +192,31 @@ git config --global user.signingkey your_key_id
 git config --global commit.gpgsign true
 ```
 
+### These
+
+~/.gnupg/gpg-agent.conf:
+```
+# Enables GPG to find gpg-agent
+use-standard-socket
+
+# Connects gpg-agent to the OSX keychain via the brew-installed
+# pinentry program from GPGtools. This is the OSX 'magic sauce',
+# allowing the gpg key's passphrase to be stored in the login
+# keychain, enabling automatic key signing.
+pinentry-program /usr/local/bin/pinentry-mac
+```
+
+~/.gnupg/gpg.conf:
+```
+# Uncomment within config (or add this line)
+use-agent
+```
+
+Add this
+```
+touch ~/.gnupg/.gpg-agent-info
+```
+
 ## SSH
 
 ### Generate key
