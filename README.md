@@ -134,49 +134,46 @@ brew install yarn --without-node
 
 ### Install
 
-#### Ubuntu
-
+Ubuntu
 ```
 sudo apt-get install git
 ```
-
-#### macOS
-
+macOS
 ```
 brew install git
 ```
 
 
-## Commitizen
+### Commitizen
 
-### Install Commitizen CLI (Globally) 
+#### Install Commitizen CLI (Globally) 
 
 ```
 yarn global add commitizen
 ```
 
-### Install (in project root)
+#### Install (in project root)
 
 ```
 commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
 
 
-## GPG Auto Git Signing
+### GPG Auto Git Signing
 
-### Generate a new pgp key
+#### Generate a new pgp key
 
 ```
 gpg --gen-key
 ```
 
-### Check current keys
+#### Check current keys
 
 ```
 gpg --list-secret-keys --keyid-format LONG
 ```
 
-### Export public key in gpg
+#### Export public key in gpg
 your_key_id is the HASH id in front of `sec` in previous command.
 
 ```
@@ -185,14 +182,14 @@ gpg --armor --export your_key_id | pbcopy
 
 Paste on GitHub (https://github.com/settings/gpg/new)
 
-### Set a pgp key for git
+#### Set a pgp key for git
 
 ```
 git config --global user.signingkey your_key_id
 git config --global commit.gpgsign true
 ```
 
-### These
+#### These
 
 ~/.gnupg/gpg-agent.conf:
 ```
@@ -216,6 +213,19 @@ Add this
 ```
 touch ~/.gnupg/.gpg-agent-info
 ```
+
+#### Git Flow
+
+macOS
+```
+brew install git-flow
+```
+
+Ubuntu
+```
+apt-get install git-flow
+```
+
 
 ## SSH
 
