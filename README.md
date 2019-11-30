@@ -256,6 +256,6 @@ brew install pyenv
 ## GUI Applications (macOS)
 
 ```
-brew cask install qlstephen qlmarkdown quicklook-json quicklook-csv google-chrome appcleaner cheatsheet bettertouchtool docker dropbox 1password discord spotify gitkraken hyper visual-studio-code homebrew/cask-versions/java8
+brew cask install homebrew/cask-versions/java8 qlstephen qlmarkdown quicklook-json quicklook-csv google-chrome appcleaner cheatsheet bettertouchtool docker dropbox 1password discord spotify gitkraken hyper visual-studio-code keybase postman mongodb-compass rescuetime
 ```
 
