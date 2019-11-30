@@ -253,6 +253,15 @@ brew install pyenv
 ```
 
 
+## VS Code extensions
+
+ESLint
+Prettier
+TabNine
+TODO Highlight
+WakaTime
+
+
 ## Libraries (macOS)
 
 ```
