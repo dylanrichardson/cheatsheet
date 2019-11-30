@@ -271,3 +271,6 @@ brew install git mongodb zsh
 brew cask install homebrew/cask-versions/java8 qlstephen qlmarkdown quicklook-json quicklook-csv google-chrome appcleaner cheatsheet bettertouchtool docker dropbox 1password discord spotify gitkraken hyper visual-studio-code keybase postman mongodb-compass rescuetime
 ```
 
+## App downloads
+
+- https://fiplab.com/apps/memory-clean-for-mac
