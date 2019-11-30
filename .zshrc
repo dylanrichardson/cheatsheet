@@ -59,7 +59,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git ssh-agent git-flow gpg-agent common-aliases yarn
+  git ssh-agent gpg-agent common-aliases yarn
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -81,14 +81,22 @@ export NVM_DIR="$HOME/.nvm"
 # added by travis gem
 [ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
 
+# Google Cloud Platform
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/dylanrichardson/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/dylanrichardson/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/dylanrichardson/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/dylanrichardson/google-cloud-sdk/completion.zsh.inc'; fi
+
+
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='subl'
+  export EDITOR='nano'
 else
-  export EDITOR='subl'
+  export EDITOR='code'
 fi
 
 # Compilation flags
@@ -117,6 +125,7 @@ eval "$(pyenv virtualenv-init -)"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias d="yarn dev"
 alias y="yarn add"
 alias yd="y -D"
 alias yr="yarn remove"
@@ -125,9 +134,9 @@ alias yb="yarn build"
 alias ys="yarn start"
 alias gs="git status"
 alias ga="git add"
-alias gc="git cz"
+alias gc="git commit -m"
 alias gp="git push"
-alias zshrc="subl ~/.zshrc"
+alias zshrc="code ~/.zshrc"
 
 # change directory to ~/dev if at ~
 if [[ ~ == $(pwd) ]]; then
