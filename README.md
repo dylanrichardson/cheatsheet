@@ -78,8 +78,6 @@ wget -P ~ https://raw.githubusercontent.com/drich14/cheatsheet/master/.zshrc
 
 ## Curl
 
-### Install
-
 ```
 sudo apt-get install curl
 ```
@@ -99,7 +97,7 @@ curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh -o 
 bash install_nvm.sh
 ```
 
-### Install Node (and NPM)
+### Install latest Node (and NPM)
 
 ```
 nvm install node
@@ -113,9 +111,7 @@ ln -s /usr/bin/nodejs /usr/bin/node
 
 ## Yarn
 
-### Install
-
-#### Ubuntu
+### Ubuntu
 
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
@@ -123,7 +119,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update && sudo apt-get install yarn
 ```
 
-#### macOS
+### macOS
 
 ```
 brew install yarn --without-node
@@ -132,13 +128,14 @@ brew install yarn --without-node
 
 ## Git
 
-### Install
+### Ubuntu
 
-Ubuntu
 ```
 sudo apt-get install git
 ```
-macOS
+
+### macOS
+
 ```
 brew install git
 ```
@@ -256,9 +253,9 @@ brew install pyenv
 ```
 
 
-## Applications (macOS)
+## GUI Applications (macOS)
 
 ```
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip webpquicklook suspicious-package google-chrome alfred android-file-transfer appcleaner caffeine cheatsheet bettertouchtool docker doubletwist dropbox google-backup-and-sync flux latexit 1password spectacle sublime-text superduper discord spotify transmission gitkraken vlc hyper mactex homebrew/cask-versions/java8
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip webpquicklook suspicious-package google-chrome appcleaner cheatsheet bettertouchtool docker doubletwist dropbox 1password discord spotify gitkraken hyper homebrew/cask-versions/java8
 ```
 
