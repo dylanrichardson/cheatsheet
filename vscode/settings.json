@@ -1,0 +1,29 @@
+{
+  "typescript.tsserver.log": "verbose",
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
+  "eslint.packageManager": "yarn",
+  "npm.packageManager": "yarn",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.quickSuggestions": {
+    "comments": true,
+    "strings": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "eslint.lintTask.enable": true,
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
