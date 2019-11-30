@@ -253,6 +253,13 @@ brew install pyenv
 ```
 
 
+## Libraries (macOS)
+
+```
+brew install git mongodb zsh
+```
+
+
 ## GUI Applications (macOS)
 
 ```
