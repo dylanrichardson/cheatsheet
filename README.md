@@ -255,11 +255,7 @@ brew install pyenv
 
 ## VS Code extensions
 
-ESLint
-Prettier
-TabNine
-TODO Highlight
-WakaTime
+code --install-extension dbaeumer.vscode-eslint esbenp.prettier-vscode TabNine.tabnine-vscode WakaTime.vscode-wakatime wayou.vscode-todo-highlight
 
 
 ## Libraries (macOS)
