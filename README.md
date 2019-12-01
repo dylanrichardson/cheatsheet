@@ -15,6 +15,21 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew tap homebrew/cask
 ```
 
+
+## Libraries (macOS)
+
+```
+brew install git mongodb zsh
+```
+
+
+## GUI Applications (macOS)
+
+```
+brew cask install qlstephen qlmarkdown quicklook-json quicklook-csv google-chrome appcleaner cheatsheet bettertouchtool docker dropbox 1password discord spotify gitkraken hyper visual-studio-code keybase postman mongodb-compass rescuetime
+```
+
+
 ## Xcode Command Line Tools
 xcode-select --install
 
@@ -257,19 +272,6 @@ brew install pyenv
 
 code --install-extension dbaeumer.vscode-eslint esbenp.prettier-vscode TabNine.tabnine-vscode WakaTime.vscode-wakatime wayou.vscode-todo-highlight
 
-
-## Libraries (macOS)
-
-```
-brew install git mongodb zsh
-```
-
-
-## GUI Applications (macOS)
-
-```
-brew cask install homebrew/cask-versions/java8 qlstephen qlmarkdown quicklook-json quicklook-csv google-chrome appcleaner cheatsheet bettertouchtool docker dropbox 1password discord spotify gitkraken hyper visual-studio-code keybase postman mongodb-compass rescuetime
-```
 
 ## App downloads
 
