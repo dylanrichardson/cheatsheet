@@ -19,7 +19,7 @@ brew tap homebrew/cask
 ## Libraries (macOS)
 
 ```
-brew install git mongodb zsh
+brew install git zsh gnupg
 ```
 
 
