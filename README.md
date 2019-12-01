@@ -260,7 +260,11 @@ brew install pyenv
 
 ## VS Code extensions
 
-code --install-extension dbaeumer.vscode-eslint esbenp.prettier-vscode TabNine.tabnine-vscode WakaTime.vscode-wakatime wayou.vscode-todo-highlight
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension TabNine.tabnine-vscode
+code --install-extension WakaTime.vscode-wakatime
+code --install-extension wayou.vscode-todo-highlight
 
 
 ## App downloads
