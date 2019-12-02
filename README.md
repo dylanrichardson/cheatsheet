@@ -267,6 +267,15 @@ code --install-extension WakaTime.vscode-wakatime
 code --install-extension wayou.vscode-todo-highlight
 
 
+## Java
+
+### macOS
+
+```
+brew cask install adoptopenjdk
+```
+
+
 ## MongoDB
 
 ### macOS
