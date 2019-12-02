@@ -274,6 +274,7 @@ code --install-extension wayou.vscode-todo-highlight
 ```
 brew tap mongodb/brew
 brew install mongodb-community
+brew services start mongodb/brew/mongodb-community
 ```
 
 
