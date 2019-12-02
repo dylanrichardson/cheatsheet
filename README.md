@@ -26,7 +26,7 @@ brew install git zsh gnupg
 ## GUI Applications (macOS)
 
 ```
-brew cask install qlstephen qlmarkdown quicklook-json quicklook-csv google-chrome appcleaner cheatsheet bettertouchtool docker dropbox 1password discord spotify gitkraken hyper visual-studio-code keybase postman mongodb-compass rescuetime
+brew cask install qlstephen qlmarkdown quicklook-json quicklook-csv google-chrome appcleaner cheatsheet bettertouchtool docker dropbox 1password discord spotify gitkraken hyper visual-studio-code keybase postman mongodb-compass rescuetime google-backup-and-sync
 ```
 
 
