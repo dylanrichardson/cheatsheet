@@ -267,6 +267,16 @@ code --install-extension WakaTime.vscode-wakatime
 code --install-extension wayou.vscode-todo-highlight
 
 
+## MongoDB
+
+### macOS
+
+```
+brew tap mongodb/brew
+brew install mongodb-community
+```
+
+
 ## App downloads
 
 - https://fiplab.com/apps/memory-clean-for-mac
